@@ -20,6 +20,10 @@ if (officialBuild) {
 android {
     namespace = "com.google.android.hmal"
 
+    defaultConfig {
+         applicationId = "com.google.android.webview"
+     }
+ 
     buildFeatures {
         buildConfig = true
         viewBinding = true
