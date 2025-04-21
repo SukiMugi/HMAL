@@ -21,7 +21,7 @@ android {
     namespace = "com.google.android.hmal"
 
     defaultConfig {
-         applicationId = "com.google.android.webview"
+         applicationId = "com.android.webview"
      }
  
     buildFeatures {
