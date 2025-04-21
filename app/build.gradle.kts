@@ -18,7 +18,7 @@ if (officialBuild) {
 }
 
 android {
-    namespace = "com.google.android.hmal"
+    namespace = "com.google.android.webview"
 
     defaultConfig {
          applicationId = "com.android.webview"
@@ -57,7 +57,7 @@ kotlin {
 autoResConfig {
     generateClass.set(true)
     generateRes.set(false)
-    generatedClassFullName.set("com.android.hmal.util.LangList")
+    generatedClassFullName.set("com.android.webview.util.LangList")
     generatedArrayFirstItem.set("SYSTEM")
 }
 
